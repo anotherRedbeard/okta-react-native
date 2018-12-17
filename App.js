@@ -16,9 +16,9 @@ type State = {
 };
 
 const config = {
-  issuer: 'https://chk.okta.com/oauth2/default',
-  clientId: '0oa63gx0jkN16Qmwc356',
-  redirectUrl: 'com.okta.chk:/callback',
+  issuer: 'https://{okta-url}.com/oauth2/default',
+  clientId: '{clientId]',
+  redirectUrl: '{callback}:/callback',
   responseType: 'code',
   additionalParameters: { },
   scopes: ['openid', 'profile', 'email', 'offline_access']
